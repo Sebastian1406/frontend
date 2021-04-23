@@ -112,7 +112,7 @@ main {
   border: solid 1px #e882e8;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 500px) {
   body {
     background-image: url("./images/bg-mobile.svg");
     background-size: cover;
