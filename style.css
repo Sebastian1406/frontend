@@ -1,6 +1,6 @@
 body {
   background-color: #674baf;
-  background-image: url(/images/bg-mobile.svg);
+  background-image: url(../images/bg-mobile.svg);
   background-repeat: no-repeat;
   margin: 0px;
   -webkit-box-sizing: border-box;
@@ -114,11 +114,16 @@ main {
 
 @media screen and (min-width: 400px) {
   body {
-    background-image: url(/images/bg-desktop.svg);
+    background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+    background-position: -20px 0px;
   }
   main {
-    padding: 70px 70px 0px 70px;
-    gap: 35px 50px;
+    padding: 70px 70px 30px 70px;
+    gap: 50px 50px;
+  }
+  .logo {
+    padding-top: 20px;
   }
   .logo img {
     width: 190px;
@@ -126,7 +131,6 @@ main {
   .mockups {
     -ms-grid-column: 1;
     grid-column: 1 / 1;
-    padding-top: 30px;
   }
   .mockups img {
     width: 730px;
