@@ -1,6 +1,6 @@
 body {
   background-color: #674baf;
-  background-image: url(./images/bg-mobile.svg);
+  background-image: url("./images/bg-mobile.svg");
   background-repeat: no-repeat;
   margin: 0px;
   -webkit-box-sizing: border-box;
@@ -114,7 +114,7 @@ main {
 
 @media screen and (min-width: 400px) {
   body {
-    background-image: url(./images/bg-desktop.svg);
+    background-image: url("./images/bg-mobile.svg");
     background-size: cover;
     background-position: -20px 0px;
   }
